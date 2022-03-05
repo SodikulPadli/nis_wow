@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react';
 
 // import boostrap module
 import 'bootstrap/dist/css/bootstrap.min.css';

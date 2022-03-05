@@ -1,7 +1,7 @@
 import { Modal, Button, Form } from 'react-bootstrap';
 import React from 'react';
 
-function Login(props) {
+function Register(props) {
   return (
     <Modal {...props} size="md" aria-labelledby="contained-modal-title-vcenter" centered>
       <Modal.Header closeButton>
@@ -17,15 +17,19 @@ function Login(props) {
             <Form.Label>Password</Form.Label>
             <Form.Control type="password" />
           </Form.Group>
+          <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+            <Form.Label>Full Name</Form.Label>
+            <Form.Control type="text" />
+          </Form.Group>
           <Button className="px-5 my-2" variant="danger" style={{ marginInlineStart: '150px', border: 'none' }}>
             Sign Up
           </Button>
           <p>
-            Don't have an account ? Klik <b>Here</b>
+            Already have an account ? Klik <b>Here</b>
           </p>
         </Form>
       </Modal.Body>
     </Modal>
   );
 }
-export default Login;
+export default Register;
