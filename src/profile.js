@@ -78,11 +78,11 @@ function Profile() {
               </Card.Body>
             </Card>
             <br />
-            <h3>My List Books</h3>
+            <h3>My List Book</h3>
             <br />
             <Figure>
-              <Figure.Image width={171} height={180} alt="171x180" src="assets/list1.png" onClick={clickBook} />
-              <h4>Z1 - Sd/Mi Buku Siswa Tematik </h4>
+              <Figure.Image width={171} height={180} alt="171x180" src="assets/list2.png" onClick={clickBook} />
+              <h4>Tess on the Road </h4>
               <Figure.Caption>Nulla vitae elit libero, a pharetra augue mollis interdum.</Figure.Caption>
             </Figure>
           </Col>
