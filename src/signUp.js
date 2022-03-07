@@ -1,7 +1,15 @@
 import { Modal, Button, Form } from 'react-bootstrap';
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 function Register(props) {
+  // call that hooks here and store to variable
+  const navigate = useNavigate();
+
+  // create function here for handle push to another pages
+  const handleClick = () => {
+    navigate('/home');
+  };
   return (
     <Modal {...props} size="md" aria-labelledby="contained-modal-title-vcenter" centered>
       <Modal.Header closeButton>
@@ -21,7 +29,7 @@ function Register(props) {
             <Form.Label>Full Name</Form.Label>
             <Form.Control type="text" />
           </Form.Group>
-          <Button className="px-5 my-2" variant="danger" style={{ marginInlineStart: '150px', border: 'none' }}>
+          <Button onClick={handleClick} className="px-5 my-2" variant="danger" style={{ marginInlineStart: '150px', border: 'none' }}>
             Sign Up
           </Button>
           <p>
