@@ -52,13 +52,13 @@ function Home() {
           </Col>
           <Col lg="3" style={{ position: 'relative', marginLeft: '-30px' }}>
             <img src="assets/Frame 1.png"></img>
-            <h3>List Books</h3>
-            <Figure>
-              <Figure.Image width={171} height={180} alt="171x180" src="assets/list2.png" onClick={Alert} />
-              <h4>Tess on the Road</h4>
-              <Figure.Caption>Nulla vitae elit libero, a pharetra augue mollis interdum.</Figure.Caption>
-            </Figure>
           </Col>
+          <Figure style={{ position: 'relative', marginLeft: '200px', marginTop: '30px' }}>
+            <h3>List Books</h3>
+            <Figure.Image width={171} height={180} alt="171x180" src="assets/list2.png" onClick={Alert} />
+            <h4>Tess on the Road</h4>
+            <Figure.Caption>Nulla vitae elit libero, a pharetra augue mollis interdum.</Figure.Caption>
+          </Figure>
         </Row>
       </Container>
     </div>

@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 function Profile() {
   // call that hooks here and store to variable
   const profile = useNavigate();
-  // create function here for handle push to another pages
+  // create function here for handle push to  another pages
   const clickProfile = () => {
     profile('/profile');
   };
